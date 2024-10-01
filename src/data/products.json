@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Web Design Mastery",
+    "price": 159.99,
+    "image": "https://via.placeholder.com/300?text=Web+Design+Mastery",
+    "category": "Design",
+    "size": [7, 8, 9, 10, 11],
+    "color": "Black/Red"
+  },
+  {
+    "id": 2,
+    "name": "E-Commerce Essentials",
+    "price": 179.99,
+    "image": "https://via.placeholder.com/300?text=E-Commerce+Essentials",
+    "category": "Business",
+    "size": [8, 9, 10, 11, 12],
+    "color": "Gray/Blue"
+  },
+  {
+    "id": 3,
+    "name": "SEO Strategy Guide",
+    "price": 139.99,
+    "image": "https://via.placeholder.com/300?text=SEO+Strategy+Guide",
+    "category": "Marketing",
+    "size": [6, 7, 8, 9, 10],
+    "color": "Green/White"
+  },
+  {
+    "id": 4,
+    "name": "Social Media Wizardry",
+    "price": 149.99,
+    "image": "https://via.placeholder.com/300?text=Social+Media+Wizardry",
+    "category": "Marketing",
+    "size": [7, 8, 9, 10, 11],
+    "color": "Orange/Black"
+  },
+  {
+    "id": 5,
+    "name": "Content Creation Masterclass",
+    "price": 189.99,
+    "image": "https://via.placeholder.com/300?text=Content+Creation+Masterclass",
+    "category": "Content",
+    "size": [6, 7, 8, 9, 10],
+    "color": "Purple/Gray"
+  },
+  {
+    "id": 6,
+    "name": "User Experience Design",
+    "price": 169.99,
+    "image": "https://via.placeholder.com/300?text=User+Experience+Design",
+    "category": "Design",
+    "size": [8, 9, 10, 11, 12],
+    "color": "Brown/Green"
+  },
+  {
+    "id": 7,
+    "name": "Digital Marketing Fundamentals",
+    "price": 199.99,
+    "image": "https://via.placeholder.com/300?text=Digital+Marketing+Fundamentals",
+    "category": "Marketing",
+    "size": [6, 7, 8, 9, 10],
+    "color": "Blue/White"
+  },
+  {
+    "id": 8,
+    "name": "Web Development Bootcamp",
+    "price": 129.99,
+    "image": "https://via.placeholder.com/300?text=Web+Development+Bootcamp",
+    "category": "Development",
+    "size": [7, 8, 9, 10, 11],
+    "color": "Tan/Brown"
+  },
+  {
+    "id": 9,
+    "name": "Freelancing Blueprint",
+    "price": 159.99,
+    "image": "https://via.placeholder.com/300?text=Freelancing+Blueprint",
+    "category": "Business",
+    "size": [6, 7, 8, 9, 10],
+    "color": "Red/Gray"
+  },
+  {
+    "id": 10,
+    "name": "Graphic Design Essentials",
+    "price": 179.99,
+    "image": "https://via.placeholder.com/300?text=Graphic+Design+Essentials",
+    "category": "Design",
+    "size": [8, 9, 10, 11, 12],
+    "color": "Black/Yellow"
+  },
+  {
+    "id": 11,
+    "name": "WordPress Mastery",
+    "price": 149.99,
+    "image": "https://via.placeholder.com/300?text=WordPress+Mastery",
+    "category": "Development",
+    "size": [6, 7, 8, 9, 10],
+    "color": "Pink/Gray"
+  },
+  {
+    "id": 12,
+    "name": "Email Marketing Tactics",
+    "price": 189.99,
+    "image": "https://via.placeholder.com/300?text=Email+Marketing+Tactics",
+    "category": "Marketing",
+    "size": [7, 8, 9, 10, 11],
+    "color": "Gray/Orange"
+  },
+  {
+    "id": 13,
+    "name": "Video Marketing Secrets",
+    "price": 169.99,
+    "image": "https://via.placeholder.com/300?text=Video+Marketing+Secrets",
+    "category": "Marketing",
+    "size": [6, 7, 8, 9, 10],
+    "color": "Teal/Black"
+  },
+  {
+    "id": 14,
+    "name": "Copywriting Mastery",
+    "price": 199.99,
+    "image": "https://via.placeholder.com/300?text=Copywriting+Mastery",
+    "category": "Content",
+    "size": [8, 9, 10, 11, 12],
+    "color": "Blue/Red"
+  },
+  {
+    "id": 15,
+    "name": "Affiliate Marketing Success",
+    "price": 159.99,
+    "image": "https://via.placeholder.com/300?text=Affiliate+Marketing+Success",
+    "category": "Business",
+    "size": [6, 7, 8, 9, 10],
+    "color": "Purple/White"
+  },
+  {
+    "id": 16,
+    "name": "Data Analytics Bootcamp",
+    "price": 179.99,
+    "image": "https://via.placeholder.com/300?text=Data+Analytics+Bootcamp",
+    "category": "Data",
+    "size": [7, 8, 9, 10, 11],
+    "color": "Green/Black"
+  },
+  {
+    "id": 17,
+    "name": "UX/UI Design Fundamentals",
+    "price": 139.99,
+    "image": "https://via.placeholder.com/300?text=UX/UI+Design+Fundamentals",
+    "category": "Design",
+    "size": [6, 7, 8, 9, 10],
+    "color": "Brown/Pink"
+  },
+  {
+    "id": 18,
+    "name": "Web Development Advanced",
+    "price": 189.99,
+    "image": "https://via.placeholder.com/300?text=Web+Development+Advanced",
+    "category": "Development",
+    "size": [8, 9, 10, 11, 12],
+    "color": "Black/Green"
+  },
+  {
+    "id": 19,
+    "name": "Analytics for Marketers",
+    "price": 169.99,
+    "image": "https://via.placeholder.com/300?text=Analytics+for+Marketers",
+    "category": "Marketing",
+    "size": [6, 7, 8, 9, 10],
+    "color": "Gray/Purple"
+  },
+  {
+    "id": 20,
+    "name": "Entrepreneurship 101",
+    "price": 199.99,
+    "image": "https://via.placeholder.com/300?text=Entrepreneurship+101",
+    "category": "Business",
+    "size": [7, 8, 9, 10, 11],
+    "color": "Red/Black"
+  }
+]
