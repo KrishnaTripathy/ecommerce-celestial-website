@@ -11,21 +11,19 @@ export default function ProductList() {
       const categoryMatch =
         filters.category.length === 0 ||
         filters.category.includes(product.category);
-      const sizeMatch =
-        filters.size.length === 0 ||
-        product.size.some((s) => filters.size.includes(s));
+
       const colorMatch =
         filters.color.length === 0 ||
         filters.color.some((c) =>
           product.color.toLowerCase().includes(c.toLowerCase())
         );
-      return categoryMatch && sizeMatch && colorMatch;
+      return categoryMatch && colorMatch;
     });
     setFilteredProducts(filtered);
   };
 
   return (
-    <div className="container mx-auto px-4 py-8 ">
+    <div className="container-fluid px-10 mx-auto py-8 ">
       <h1 className="text-3xl font-bold mb-8 text-white">Available template</h1>
       <div className="flex flex-col md:flex-row gap-8">
         <div className="w-full md:w-1/4">

@@ -4,13 +4,12 @@ import { useState } from 'react';
 export default function Filters({ onFilterChange }) {
   const [filters, setFilters] = useState({
     category: [],
-    size: [],
     color: [],
   });
+  console.log("Filters",filters);
 
   const [openSections, setOpenSections] = useState({
     category: true,
-    size: true,
     color: true,
   });
 
@@ -42,7 +41,7 @@ export default function Filters({ onFilterChange }) {
       <h2 className="text-lg font-semibold mb-4">Filters</h2>
       <div className="space-y-4">
 
-        {/* Category Section */}
+     
         <div>
           <h3 className="font-medium mb-2 cursor-pointer" onClick={() => toggleSection('category')}>
             {openSections.category ? '▼' : '►'} Category
@@ -64,7 +63,6 @@ export default function Filters({ onFilterChange }) {
           )}
         </div>
 
-        {/* Color Section */}
         <div>
           <h3 className="font-medium mb-2 cursor-pointer" onClick={() => toggleSection('color')}>
             {openSections.color ? '▼' : '►'} Color
@@ -91,7 +89,7 @@ export default function Filters({ onFilterChange }) {
   );
 }
 
-// Add prop validation for onFilterChange
+
 Filters.propTypes = {
-  onFilterChange: PropTypes.func.isRequired, // onFilterChange is a required function prop
+  onFilterChange: PropTypes.func.isRequired, 
 };

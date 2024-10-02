@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { createContext, useState, useContext } from "react";
 
 const CartContext = createContext();
@@ -31,9 +31,9 @@ export function CartProvider({ children }) {
   );
 }
 
-// Add prop validation for children
+
 CartProvider.propTypes = {
-  children: PropTypes.node.isRequired, // children can be any renderable content
+  children: PropTypes.node.isRequired, 
 };
 
 export function useCart() {

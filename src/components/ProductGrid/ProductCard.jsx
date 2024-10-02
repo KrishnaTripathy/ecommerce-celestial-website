@@ -18,7 +18,7 @@ export default function ProductCard({ product }) {
 
   return (
     <div
-      className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col justify-between"
+      className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col justify-between min-h-28 h-fit"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -35,7 +35,7 @@ export default function ProductCard({ product }) {
         )}
       </div>
       <div className="p-4">
-        <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
+        <h3 className="text-[16px] font-semibold mb-2">{product.name}</h3>
         <p className="text-gray-600 mb-2">${product.price.toFixed(2)}</p>
         <p className="text-sm text-gray-500 mb-4">
           {product.category} | {product.color}
