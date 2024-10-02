@@ -13,12 +13,12 @@ export default function App() {
       <CartProvider>
         <div className="flex flex-col min-h-screen">
           <Header />
-          <main className="flex-grow bg-[#121212]">
+          <main className="flex-grow bg-[#121212] mt-16">
             <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="/products" element={<ProductList />} />
               <Route path="/cart" element={<Cart />} />
-              <Route path="/product" element={<Product />} />
+              <Route path="/products/:id" element={<Product />} />
             </Routes>
           </main>
           <Footer />

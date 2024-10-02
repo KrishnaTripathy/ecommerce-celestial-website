@@ -1,164 +1,1118 @@
 [
-  {
-    "id": 1,
-    "name": "Web Design Mastery",
-    "price": 159.99,
-    "image": "https://via.placeholder.com/300?text=Web+Design+Mastery",
-    "color": "Black/Red",
-    "description": "A comprehensive guide to mastering web design skills, from layout creation to user experience, for beginners and professionals.",
-    "category": "Portfolio"
-  },
-  {
-    "id": 2,
-    "name": "E-Commerce Essentials",
-    "price": 179.99,
-    "image": "https://via.placeholder.com/300?text=E-Commerce+Essentials",
-    "color": "Gray/Blue",
-    "description": "Learn the foundational elements of building and managing a successful e-commerce business, including marketing, sales, and customer engagement.",
-    "category": "E-Commerce"
-  },
-  {
-    "id": 3,
-    "name": "SEO Strategy Guide",
-    "price": 139.99,
-    "image": "https://via.placeholder.com/300?text=SEO+Strategy+Guide",
-    "color": "Green/White",
-    "description": "Boost your website's visibility with this comprehensive SEO guide, covering keyword optimization, link building, and analytics.",
-    "category": "Blogs Application"
-  },
-  {
-    "id": 4,
-    "name": "Social Media Wizardry",
-    "price": 149.99,
-    "image": "https://via.placeholder.com/300?text=Social+Media+Wizardry",
-    "color": "Orange/Black",
-    "description": "Unlock the secrets of social media marketing and management, mastering content creation, strategy, and audience engagement.",
-    "category": "Admin Page"
-  },
-  {
-    "id": 5,
-    "name": "Content Creation Masterclass",
-    "price": 189.99,
-    "image": "https://via.placeholder.com/300?text=Content+Creation+Masterclass",
-    "color": "Purple/Gray",
-    "description": "Master the art of creating engaging and high-quality content that resonates with your audience and boosts brand awareness.",
-    "category": "Blogs Application"
-  },
-  {
-    "id": 6,
-    "name": "Book Management System",
-    "price": 169.99,
-    "image": "https://via.placeholder.com/300?text=Book+Management+System",
-    "color": "Brown/Green",
-    "description": "A tool to efficiently manage book collections, from categorization to metadata tracking, tailored for libraries or personal use.",
-    "category": "School Management"
-  },
-  {
-    "id": 7,
-    "name": "Digital Marketing Fundamentals",
-    "price": 199.99,
-    "image": "https://via.placeholder.com/300?text=Digital+Marketing+Fundamentals",
-    "color": "Blue/White",
-    "description": "Dive into the world of digital marketing, learning SEO, email campaigns, content strategy, and social media advertising.",
-    "category": "Stock Marketing"
-  },
-  {
-    "id": 8,
-    "name": "Web Development Bootcamp",
-    "price": 129.99,
-    "image": "https://via.placeholder.com/300?text=Web+Development+Bootcamp",
-    "color": "Tan/Brown",
-    "description": "Learn the latest web development technologies and frameworks, from HTML and CSS to JavaScript and backend integration.",
-    "category": "Portfolio"
-  },
-  {
-    "id": 9,
-    "name": "Freelancing Blueprint",
-    "price": 159.99,
-    "image": "https://via.placeholder.com/300?text=Freelancing+Blueprint",
-    "color": "Red/Gray",
-    "description": "A comprehensive guide to building a successful freelance career, managing clients, contracts, and finances effectively.",
-    "category": "Portfolio"
-  },
-  {
-    "id": 10,
-    "name": "Graphic Design Essentials",
-    "price": 179.99,
-    "image": "https://via.placeholder.com/300?text=Graphic+Design+Essentials",
-    "color": "Black/Yellow",
-    "description": "Explore the essentials of graphic design, from color theory and typography to software tools like Adobe Photoshop.",
-    "category": "Portfolio"
-  },
-  {
-    "id": 11,
-    "name": "WordPress Mastery",
-    "price": 149.99,
-    "image": "https://via.placeholder.com/300?text=WordPress+Mastery",
-    "color": "Pink/Gray",
-    "description": "Learn to build and customize websites using WordPress, including themes, plugins, and SEO optimization techniques.",
-    "category": "Blogs Application"
-  },
-  {
-    "id": 12,
-    "name": "Email Marketing Tactics",
-    "price": 189.99,
-    "image": "https://via.placeholder.com/300?text=Email+Marketing+Tactics",
-    "color": "Gray/Orange",
-    "description": "Learn to create impactful email marketing campaigns, improving open rates, conversion, and customer retention through effective strategies.",
-    "category": "Admin Page"
-  },
-  {
-    "id": 13,
-    "name": "Video Marketing Secrets",
-    "price": 169.99,
-    "image": "https://via.placeholder.com/300?text=Video+Marketing+Secrets",
-    "color": "Teal/Black",
-    "description": "Master video marketing techniques, from scripting and production to editing and promotion, for a strong digital presence.",
-    "category": "Stock Marketing"
-  },
-  {
-    "id": 14,
-    "name": "Copywriting Mastery",
-    "price": 199.99,
-    "image": "https://via.placeholder.com/300?text=Copywriting+Mastery",
-    "color": "Blue/Red",
-    "description": "Enhance your copywriting skills, learning to craft compelling, persuasive content that drives conversions and audience engagement.",
-    "category": "Blogs Application"
-  },
-  {
-    "id": 15,
-    "name": "Affiliate Marketing Success",
-    "price": 159.99,
-    "image": "https://via.placeholder.com/300?text=Affiliate+Marketing+Success",
-    "color": "Purple/White",
-    "description": "Learn the strategies to succeed in affiliate marketing, building passive income streams through partnerships and promotions.",
-    "category": "Business"
-  },
-  {
-    "id": 16,
-    "name": "Data Analytics Bootcamp",
-    "price": 179.99,
-    "image": "https://via.placeholder.com/300?text=Data+Analytics+Bootcamp",
-    "color": "Green/Black",
-    "description": "Master the key tools and techniques in data analytics, including data visualization, statistical analysis, and reporting.",
-    "category": "Data Analytics"
-  },
-  {
-    "id": 17,
-    "name": "UX/UI Design Fundamentals",
-    "price": 139.99,
-    "image": "https://via.placeholder.com/300?text=UX/UI+Design+Fundamentals",
-    "color": "Orange/White",
-    "description": "Learn the core principles of UX/UI design, including wireframing, prototyping, and user testing for impactful web and mobile experiences.",
-    "category": "Portfolio"
-  },
-  {
-    "id": 18,
-    "name": "Real Estate Management",
-    "price": 219.99,
-    "image": "https://via.placeholder.com/300?text=Real+Estate+Management",
-    "color": "Gray/Green",
-    "description": "Manage real estate portfolios with ease, tracking property details, rental income, and tenant data.",
-    "category": "Real Estate"
-  }
+    {
+        "id": 1,
+        "name": "Web Design Mastery",
+        "price": 159.99,
+        "image": "https://via.placeholder.com/300?text=Web+Design+Mastery",
+        "color": "Black/Red",
+        "description": "A comprehensive guide to mastering web design skills, from layout creation to user experience, for beginners and professionals.",
+        "category": "Portfolio",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "John",
+                "comment": "Amazing course for designers!",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Anna",
+                "comment": "Very insightful.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Jane Doe"
+            ],
+            [
+                "Creation Date",
+                "January 2021"
+            ],
+            [
+                "Framework",
+                "Next.js 13"
+            ],
+            [
+                "CSS Framework",
+                "Tailwind CSS"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "Figma, HTML, CSS"
+            ],
+            [
+                "File Size",
+                "25MB"
+            ]
+        ],
+        "components": [
+            "Pricing Tables",
+            "Testimonial Slider"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "E-Commerce Essentials",
+        "price": 179.99,
+        "image": "https://via.placeholder.com/300?text=E-Commerce+Essentials",
+        "color": "Gray/Blue",
+        "description": "Learn the foundational elements of building and managing a successful e-commerce business, including marketing, sales, and customer engagement.",
+        "category": "E-Commerce",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Mark",
+                "comment": "Helped me boost my business!",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Sophia",
+                "comment": "Valuable content for entrepreneurs.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "John Smith"
+            ],
+            [
+                "Creation Date",
+                "June 2021"
+            ],
+            [
+                "Framework",
+                "React"
+            ],
+            [
+                "CSS Framework",
+                "Bootstrap"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "HTML, CSS"
+            ],
+            [
+                "File Size",
+                "40MB"
+            ]
+        ],
+        "components": [
+            "Product Catalog",
+            "Shopping Cart Integration"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "SEO Strategy Guide",
+        "price": 139.99,
+        "image": "https://via.placeholder.com/300?text=SEO+Strategy+Guide",
+        "color": "Green/White",
+        "description": "Boost your website's visibility with this comprehensive SEO guide, covering keyword optimization, link building, and analytics.",
+        "category": "Blogs Application",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Mike",
+                "comment": "A must for anyone looking to improve SEO.",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Emily",
+                "comment": "Clear and easy to follow.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "SEO Expert"
+            ],
+            [
+                "Creation Date",
+                "March 2022"
+            ],
+            [
+                "Framework",
+                "Next.js 13"
+            ],
+            [
+                "CSS Framework",
+                "Tailwind CSS"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "PDF, HTML"
+            ],
+            [
+                "File Size",
+                "20MB"
+            ]
+        ],
+        "components": [
+            "SEO Tools",
+            "Analytics Dashboard"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Social Media Wizardry",
+        "price": 149.99,
+        "image": "https://via.placeholder.com/300?text=Social+Media+Wizardry",
+        "color": "Orange/Black",
+        "description": "Unlock the secrets of social media marketing and management, mastering content creation, strategy, and audience engagement.",
+        "category": "Admin Page",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Sarah",
+                "comment": "Increased my social media presence!",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Tom",
+                "comment": "Great insights on managing content.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Social Media Guru"
+            ],
+            [
+                "Creation Date",
+                "February 2021"
+            ],
+            [
+                "Framework",
+                "Vue.js"
+            ],
+            [
+                "CSS Framework",
+                "Bulma"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "HTML, CSS, JS"
+            ],
+            [
+                "File Size",
+                "35MB"
+            ]
+        ],
+        "components": [
+            "Social Feed",
+            "Content Scheduling"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Content Creation Masterclass",
+        "price": 189.99,
+        "image": "https://via.placeholder.com/300?text=Content+Creation+Masterclass",
+        "color": "Purple/Gray",
+        "description": "Master the art of creating engaging and high-quality content that resonates with your audience and boosts brand awareness.",
+        "category": "Blogs Application",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Linda",
+                "comment": "Best course on content creation!",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "James",
+                "comment": "Learned so much about storytelling.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Content Pro"
+            ],
+            [
+                "Creation Date",
+                "July 2020"
+            ],
+            [
+                "Framework",
+                "Next.js"
+            ],
+            [
+                "CSS Framework",
+                "Tailwind CSS"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "PDF, HTML"
+            ],
+            [
+                "File Size",
+                "30MB"
+            ]
+        ],
+        "components": [
+            "Content Calendar",
+            "SEO Integration"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Book Management System",
+        "price": 169.99,
+        "image": "https://via.placeholder.com/300?text=Book+Management+System",
+        "color": "Brown/Green",
+        "description": "A tool to efficiently manage book collections, from categorization to metadata tracking, tailored for libraries or personal use.",
+        "category": "School Management",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Rachel",
+                "comment": "Perfect for organizing my library!",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Henry",
+                "comment": "Very user-friendly.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Library Solutions"
+            ],
+            [
+                "Creation Date",
+                "April 2021"
+            ],
+            [
+                "Framework",
+                "React"
+            ],
+            [
+                "CSS Framework",
+                "Bootstrap"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "HTML, CSS, JS"
+            ],
+            [
+                "File Size",
+                "50MB"
+            ]
+        ],
+        "components": [
+            "Book Categories",
+            "Metadata Management"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Digital Marketing Fundamentals",
+        "price": 199.99,
+        "image": "https://via.placeholder.com/300?text=Digital+Marketing+Fundamentals",
+        "color": "Blue/White",
+        "description": "Dive into the world of digital marketing, learning SEO, email campaigns, content strategy, and social media advertising.",
+        "category": "Stock Marketing",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "David",
+                "comment": "A fantastic overview of digital marketing.",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Emma",
+                "comment": "Helped me boost my business.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Marketing Expert"
+            ],
+            [
+                "Creation Date",
+                "May 2022"
+            ],
+            [
+                "Framework",
+                "Next.js"
+            ],
+            [
+                "CSS Framework",
+                "Tailwind CSS"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "PDF, HTML, CSS"
+            ],
+            [
+                "File Size",
+                "40MB"
+            ]
+        ],
+        "components": [
+            "Email Campaign Builder",
+            "SEO Tools"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Web Development Bootcamp",
+        "price": 129.99,
+        "image": "https://via.placeholder.com/300?text=Web+Development+Bootcamp",
+        "color": "Tan/Brown",
+        "description": "Learn the latest web development technologies and frameworks, from HTML and CSS to JavaScript and backend integration.",
+        "category": "Portfolio",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Sam",
+                "comment": "Great for beginners!",
+                "rating": 4
+            },
+            {
+                "id": 2,
+                "name": "Lily",
+                "comment": "Comprehensive and easy to follow.",
+                "rating": 5
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Dev Master"
+            ],
+            [
+                "Creation Date",
+                "August 2021"
+            ],
+            [
+                "Framework",
+                "Next.js"
+            ],
+            [
+                "CSS Framework",
+                "Tailwind CSS"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "HTML, CSS, JS"
+            ],
+            [
+                "File Size",
+                "35MB"
+            ]
+        ],
+        "components": [
+            "Code Snippets",
+            "Project Starter Templates"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Freelancing Blueprint",
+        "price": 159.99,
+        "image": "https://via.placeholder.com/300?text=Freelancing+Blueprint",
+        "color": "Red/Gray",
+        "description": "A comprehensive guide to building a successful freelance career, managing clients, contracts, and finances effectively.",
+        "category": "Portfolio",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Oliver",
+                "comment": "Helped me kickstart my freelancing journey.",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Ava",
+                "comment": "Very detailed and useful.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Freelancer Pro"
+            ],
+            [
+                "Creation Date",
+                "September 2020"
+            ],
+            [
+                "Framework",
+                "React"
+            ],
+            [
+                "CSS Framework",
+                "Bootstrap"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "PDF, HTML"
+            ],
+            [
+                "File Size",
+                "50MB"
+            ]
+        ],
+        "components": [
+            "Contract Templates",
+            "Invoicing System"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Graphic Design Essentials",
+        "price": 179.99,
+        "image": "https://via.placeholder.com/300?text=Graphic+Design+Essentials",
+        "color": "Black/Yellow",
+        "description": "Explore the essentials of graphic design, from color theory and typography to software tools like Adobe Photoshop.",
+        "category": "Portfolio",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Sophia",
+                "comment": "Perfect for beginner designers.",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Liam",
+                "comment": "Highly recommended for graphic design basics.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Design Guru"
+            ],
+            [
+                "Creation Date",
+                "October 2020"
+            ],
+            [
+                "Framework",
+                "Figma"
+            ],
+            [
+                "CSS Framework",
+                "None"
+            ],
+            [
+                "Responsive",
+                "N/A"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "Figma, PSD"
+            ],
+            [
+                "File Size",
+                "55MB"
+            ]
+        ],
+        "components": [
+            "Design Templates",
+            "Color Palettes"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "WordPress Mastery",
+        "price": 149.99,
+        "image": "https://via.placeholder.com/300?text=WordPress+Mastery",
+        "color": "Pink/Gray",
+        "description": "Learn to build and customize websites using WordPress, including themes, plugins, and SEO optimization techniques.",
+        "category": "Blogs Application",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Lucas",
+                "comment": "Great course for WordPress beginners.",
+                "rating": 4
+            },
+            {
+                "id": 2,
+                "name": "Ella",
+                "comment": "Helped me create my first WordPress site!",
+                "rating": 5
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "WP Expert"
+            ],
+            [
+                "Creation Date",
+                "May 2021"
+            ],
+            [
+                "Framework",
+                "WordPress"
+            ],
+            [
+                "CSS Framework",
+                "Tailwind CSS"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "HTML, CSS, PHP"
+            ],
+            [
+                "File Size",
+                "45MB"
+            ]
+        ],
+        "components": [
+            "WordPress Themes",
+            "Plugin Integration"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Email Marketing Tactics",
+        "price": 189.99,
+        "image": "https://via.placeholder.com/300?text=Email+Marketing+Tactics",
+        "color": "Gray/Orange",
+        "description": "Learn to create impactful email marketing campaigns, improving open rates, conversion, and customer retention through effective strategies.",
+        "category": "Admin Page",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Amelia",
+                "comment": "My open rates skyrocketed after taking this course.",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Mason",
+                "comment": "Good strategies for email marketing.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Email Pro"
+            ],
+            [
+                "Creation Date",
+                "April 2022"
+            ],
+            [
+                "Framework",
+                "React"
+            ],
+            [
+                "CSS Framework",
+                "Bootstrap"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "HTML, CSS, JS"
+            ],
+            [
+                "File Size",
+                "30MB"
+            ]
+        ],
+        "components": [
+            "Email Templates",
+            "Campaign Analytics"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Video Marketing Secrets",
+        "price": 169.99,
+        "image": "https://via.placeholder.com/300?text=Video+Marketing+Secrets",
+        "color": "Teal/Black",
+        "description": "Master video marketing techniques, from scripting and production to editing and promotion, for a strong digital presence.",
+        "category": "Stock Marketing",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Harper",
+                "comment": "Increased my video content quality.",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Ethan",
+                "comment": "Very helpful tips for video production.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Video Pro"
+            ],
+            [
+                "Creation Date",
+                "June 2021"
+            ],
+            [
+                "Framework",
+                "Vue.js"
+            ],
+            [
+                "CSS Framework",
+                "Bulma"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "MP4, HTML, CSS"
+            ],
+            [
+                "File Size",
+                "60MB"
+            ]
+        ],
+        "components": [
+            "Video Templates",
+            "Editing Tools"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Copywriting Mastery",
+        "price": 199.99,
+        "image": "https://via.placeholder.com/300?text=Copywriting+Mastery",
+        "color": "Blue/Red",
+        "description": "Enhance your copywriting skills, learning to craft compelling, persuasive content that drives conversions and engagement.",
+        "category": "Portfolio",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Avery",
+                "comment": "My writing skills have improved tenfold.",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Jackson",
+                "comment": "Great tips on writing persuasive content.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Copy Expert"
+            ],
+            [
+                "Creation Date",
+                "March 2022"
+            ],
+            [
+                "Framework",
+                "Next.js"
+            ],
+            [
+                "CSS Framework",
+                "Tailwind CSS"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "PDF, HTML"
+            ],
+            [
+                "File Size",
+                "20MB"
+            ]
+        ],
+        "components": [
+            "Copy Templates",
+            "Content Strategies"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Mobile App Development",
+        "price": 219.99,
+        "image": "https://via.placeholder.com/300?text=Mobile+App+Development",
+        "color": "Purple/Green",
+        "description": "Learn how to design, develop, and deploy mobile applications for both iOS and Android using React Native.",
+        "category": "School Management",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Leo",
+                "comment": "Perfect for building mobile apps.",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Mia",
+                "comment": "Easy to follow course with great insights.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Mobile Dev Guru"
+            ],
+            [
+                "Creation Date",
+                "November 2020"
+            ],
+            [
+                "Framework",
+                "React Native"
+            ],
+            [
+                "CSS Framework",
+                "Styled Components"
+            ],
+            [
+                "Responsive",
+                "True"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "HTML, CSS, JS"
+            ],
+            [
+                "File Size",
+                "50MB"
+            ]
+        ],
+        "components": [
+            "App Templates",
+            "Push Notification System"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "UX/UI Design Mastery",
+        "price": 189.99,
+        "image": "https://via.placeholder.com/300?text=UX+UI+Design+Mastery",
+        "color": "Black/White",
+        "description": "A step-by-step guide to mastering user experience and user interface design, from wireframes to prototyping and usability testing.",
+        "category": "Portfolio",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Emily",
+                "comment": "Elevated my design skills to the next level.",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "Noah",
+                "comment": "Excellent insights on UX best practices.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Design Master"
+            ],
+            [
+                "Creation Date",
+                "December 2020"
+            ],
+            [
+                "Framework",
+                "Figma"
+            ],
+            [
+                "CSS Framework",
+                "None"
+            ],
+            [
+                "Responsive",
+                "N/A"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "Figma, Sketch"
+            ],
+            [
+                "File Size",
+                "45MB"
+            ]
+        ],
+        "components": [
+            "Wireframe Templates",
+            "Design Systems"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Artificial Intelligence Primer",
+        "price": 239.99,
+        "image": "https://via.placeholder.com/300?text=Artificial+Intelligence+Primer",
+        "color": "Green/Black",
+        "description": "Learn the basics of artificial intelligence and machine learning, from algorithms to real-world applications, using Python.",
+        "category": "School Management",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Charlotte",
+                "comment": "Fantastic intro to AI.",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "William",
+                "comment": "Very informative and practical.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "AI Expert"
+            ],
+            [
+                "Creation Date",
+                "January 2021"
+            ],
+            [
+                "Framework",
+                "Python"
+            ],
+            [
+                "CSS Framework",
+                "None"
+            ],
+            [
+                "Responsive",
+                "N/A"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "Jupyter Notebooks"
+            ],
+            [
+                "File Size",
+                "70MB"
+            ]
+        ],
+        "components": [
+            "AI Models",
+            "Data Processing Tools"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Data Science Toolkit",
+        "price": 249.99,
+        "image": "https://via.placeholder.com/300?text=Data+Science+Toolkit",
+        "color": "Orange/Black",
+        "description": "Master the key tools and techniques for data science, including data wrangling, visualization, and machine learning using Python.",
+        "category": "Blogs Application",
+        "status": "Available",
+        "reviews": [
+            {
+                "id": 1,
+                "name": "Isabella",
+                "comment": "The best data science course I’ve taken.",
+                "rating": 5
+            },
+            {
+                "id": 2,
+                "name": "James",
+                "comment": "Extremely helpful for my data projects.",
+                "rating": 4
+            }
+        ],
+        "specifications": [
+            [
+                "Created By",
+                "Data Science Guru"
+            ],
+            [
+                "Creation Date",
+                "February 2021"
+            ],
+            [
+                "Framework",
+                "Python"
+            ],
+            [
+                "CSS Framework",
+                "None"
+            ],
+            [
+                "Responsive",
+                "N/A"
+            ],
+            [
+                "Documentation",
+                "Available"
+            ],
+            [
+                "File Format",
+                "Jupyter Notebooks, CSV"
+            ],
+            [
+                "File Size",
+                "80MB"
+            ]
+        ],
+        "components": [
+            "Data Wrangling Tools",
+            "Visualization Libraries"
+        ]
+    }
 ]

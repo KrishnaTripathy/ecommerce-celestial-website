@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import { useCart } from "../Cart/CartContext";
 import { Button } from "../Ui/Button";
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function ProductCard({ product }) {
   const { addToCart } = useCart();
@@ -35,11 +36,13 @@ export default function ProductCard({ product }) {
         )}
       </div>
       <div className="p-4">
+        <Link to={`/products/${product.id}`} >
         <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
         <p className="text-gray-600 mb-2">${product.price.toFixed(2)}</p>
         <p className="text-sm text-gray-500 mb-4">
           {product.category} | {product.color}
         </p>
+        </Link>
         <Button
           onClick={handleAddToCart}
           className="w-full bg-black text-white hover:bg-gray-800 transition-colors"

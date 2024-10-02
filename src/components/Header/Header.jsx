@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-[#1F2937] shadow-md text-white">
+    <header className="bg-[#1F2937] shadow-md text-white fixed z-10 w-full">
       <div className="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
         <Link to="/" className="text-2xl font-bold mb-2 sm:mb-0">
           Celestial

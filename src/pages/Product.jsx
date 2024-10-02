@@ -1,40 +1,48 @@
-import React from "react";
+
 import { Button } from "../components/Ui/Button";
+import {useParams} from "react-router-dom"
+import productsData from "../data/products.json";
 
 function Product() {
-    let product = {
-        name: "SaaS",
-        description: "This is a sample product",
-        price: 100,
-        image: "../../public/images/sample.jpeg",
-        status: "Available",
-        id: 1,
-        reviews: [
-            {
-                id: 1,
-                name: "John",
-                comment: "Great product!",
-                rating: 4,
-            },
-            {
-                id: 2,
-                name: "Jane",
-                comment: "I love it!",
-                rating: 5,
-            },
-        ],
-        specifications: [
-            ["Created By", "John Doe"],
-            ["Creation Date", "March 2022"],
-            ["Framework", "Next.js 13"],
-            ["CSS Framework", "Tailwind CSS"],
-            ["Responsive", "True"],
-            ["Documentation", "Available"],
-            ["File Format", "Figma, HTML, CSS"],
-            ["File Size", "30MB"],
-        ],
-        components: ["Pricing Tables", "Testimonial Slider"],
-    }
+    const {id} = useParams();
+    
+    const productId = parseInt(id, 10);
+    const product = productsData.find(product => product.id === productId);
+    
+    
+    // let product = {
+    //     name: "SaaS",
+    //     description: "This is a sample product",
+    //     price: 100,
+    //     image: "../../public/images/sample.jpeg",
+    //     status: "Available",
+    //     id: 1,
+    //     reviews: [
+    //         {
+    //             id: 1,
+    //             name: "John",
+    //             comment: "Great product!",
+    //             rating: 4,
+    //         },
+    //         {
+    //             id: 2,
+    //             name: "Jane",
+    //             comment: "I love it!",
+    //             rating: 5,
+    //         },
+    //     ],
+    //     specifications: [
+    //         ["Created By", "John Doe"],
+    //         ["Creation Date", "March 2022"],
+    //         ["Framework", "Next.js 13"],
+    //         ["CSS Framework", "Tailwind CSS"],
+    //         ["Responsive", "True"],
+    //         ["Documentation", "Available"],
+    //         ["File Format", "Figma, HTML, CSS"],
+    //         ["File Size", "30MB"],
+    //     ],
+    //     components: ["Pricing Tables", "Testimonial Slider"],
+    // }
 
     return (
         <div className="p-10 w-full text-white">
@@ -58,18 +66,19 @@ function Product() {
                         <h1 className="text-3xl font-bold">Specifications</h1>
                         <div className="flex flex-col gap-2 mt-10">
                             {product.specifications.map(([key, value]) => (
-                                <div className="flex flex-row justify-between gap-28 md:gap-96">
+                                <div className="flex flex-row justify-between gap-28 md:gap-96" key={key}>
                                     <h3>{key}</h3>
                                     <p className="text-right">{value}</p>
                                 </div>
                             ))}
                         </div>
-                    </div>
+                    </div> 
                     <div>
+                        {/* This is product data {product.name} */}
                         <h1 className="text-3xl font-bold">Components</h1>
                         <div className="flex flex-row gap-2 mt-10">
-                            {product.components.map((component) => (
-                                <div className="flex flex-row justify-start gap-96">
+                            {product.components.map((key,component) => (
+                                <div className="flex flex-row justify-start gap-96" key={key}>
                                     <h3 className="text-white bg-black rounded-lg p-2">{component}</h3>
                                 </div>
                             ))}
