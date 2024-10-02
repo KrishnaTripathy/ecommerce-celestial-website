@@ -11,12 +11,11 @@ export function Button({ children, className, ...props }) {
   );
 }
 
-// Add prop validation for children and className
 Button.propTypes = {
-  children: PropTypes.node.isRequired, // children should be any renderable content (string, element, etc.)
-  className: PropTypes.string,          // className is an optional string
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,         
 };
 
 Button.defaultProps = {
-  className: '',                        // Default className to an empty string if not provided
+  className: '',                       
 };

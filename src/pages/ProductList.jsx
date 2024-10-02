@@ -6,7 +6,6 @@ import productsData from "../data/products.json";
 export default function ProductList() {
   const [products, setProducts] = useState(productsData);
   const [filteredProducts, setFilteredProducts] = useState(productsData);
-
   const handleFilterChange = (filters) => {
     const filtered = products.filter((product) => {
       const categoryMatch =
@@ -26,8 +25,8 @@ export default function ProductList() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8">Trail Running Shoes</h1>
+    <div className="container mx-auto px-4 py-8 ">
+      <h1 className="text-3xl font-bold mb-8 text-white">Available template</h1>
       <div className="flex flex-col md:flex-row gap-8">
         <div className="w-full md:w-1/4">
           <Filters onFilterChange={handleFilterChange} />
