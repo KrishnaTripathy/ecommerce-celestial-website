@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer'
 import Home from './pages/Home'
 import ProductList from './pages/ProductList'
 import Cart from './components/Cart/Cart'
+import Product from './pages/Product'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
               <Route path="/" element={<Home/>} />
               <Route path="/products" element={<ProductList />} />
               <Route path="/cart" element={<Cart />} />
+              <Route path="/product" element={<Product />} />
             </Routes>
           </main>
           <Footer />
