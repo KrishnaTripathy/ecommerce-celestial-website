@@ -6,7 +6,6 @@ export default function Filters({ onFilterChange }) {
     category: [],
     color: [],
   });
-  console.log("Filters",filters);
 
   const [openSections, setOpenSections] = useState({
     category: true,
@@ -37,19 +36,17 @@ export default function Filters({ onFilterChange }) {
   };
 
   return (
-    <div className="bg-gray-100 p-4 rounded-lg">
-      <h2 className="text-lg font-semibold mb-4">Filters</h2>
+    <div className="bg-gray-100 p-4 rounded-lg max-w-sm mx-auto">
+      <h2 className="text-lg font-semibold mb-4 text-center">Filters</h2>
       <div className="space-y-4">
-
-     
         <div>
-          <h3 className="font-medium mb-2 cursor-pointer" onClick={() => toggleSection('category')}>
-            {openSections.category ? '▼' : '►'} Category
+          <h3 className="font-medium mb-2 cursor-pointer flex justify-between items-center" onClick={() => toggleSection('category')}>
+            <span>{openSections.category ? '▼' : '►'} Category</span>
           </h3>
           {openSections.category && (
             <div className="space-y-2">
               {['Design', 'Business', 'Marketing', 'Content', 'Development', 'Data'].map((category) => (
-                <label key={category} className="flex items-center">
+                <label key={category} className="flex items-center text-sm">
                   <input
                     type="checkbox"
                     className="mr-2"
@@ -64,13 +61,13 @@ export default function Filters({ onFilterChange }) {
         </div>
 
         <div>
-          <h3 className="font-medium mb-2 cursor-pointer" onClick={() => toggleSection('color')}>
-            {openSections.color ? '▼' : '►'} Color
+          <h3 className="font-medium mb-2 cursor-pointer flex justify-between items-center" onClick={() => toggleSection('color')}>
+            <span>{openSections.color ? '▼' : '►'} Color</span>
           </h3>
           {openSections.color && (
             <div className="space-y-2">
               {['Black', 'Gray', 'Green', 'Orange', 'Purple', 'Brown', 'Blue', 'Tan', 'Red', 'Yellow', 'Pink', 'Teal'].map((color) => (
-                <label key={color} className="flex items-center">
+                <label key={color} className="flex items-center text-sm">
                   <input
                     type="checkbox"
                     className="mr-2"
@@ -83,13 +80,11 @@ export default function Filters({ onFilterChange }) {
             </div>
           )}
         </div>
-        
       </div>
     </div>
   );
 }
 
-
 Filters.propTypes = {
-  onFilterChange: PropTypes.func.isRequired, 
+  onFilterChange: PropTypes.func.isRequired,
 };

@@ -1,22 +1,22 @@
-import { useCart } from './CartContext'
-import { X } from 'lucide-react'
+import { useCart } from './CartContext';
+import { X } from 'lucide-react';
 
 export default function Cart() {
-  const { cart, removeFromCart } = useCart()
+  const { cart, removeFromCart } = useCart();
 
-  const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0)
+  const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 max-w-md mx-auto">
-      <h2 className="text-2xl font-bold mb-4">Your Cart</h2>
+      <h2 className="text-2xl font-bold mb-4 text-center">Your Cart</h2>
       {cart.length === 0 ? (
-        <p className="text-gray-500">Your cart is empty.</p>
+        <p className="text-gray-500 text-center">Your cart is empty.</p>
       ) : (
         <>
           <ul className="divide-y divide-gray-200">
             {cart.map((item) => (
               <li key={item.id} className="py-4 flex items-center justify-between">
-                <div>
+                <div className="flex-1">
                   <h3 className="text-lg font-medium">{item.name}</h3>
                   <p className="text-gray-500">
                     ${item.price.toFixed(2)} x {item.quantity}
@@ -24,7 +24,7 @@ export default function Cart() {
                 </div>
                 <button
                   onClick={() => removeFromCart(item.id)}
-                  className="text-red-500 hover:text-red-700"
+                  className="text-red-500 hover:text-red-700 ml-4"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -43,5 +43,5 @@ export default function Cart() {
         </>
       )}
     </div>
-  )
+  );
 }

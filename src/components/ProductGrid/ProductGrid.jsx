@@ -30,36 +30,32 @@ export default function ProductGrid({ products }) {
   };
 
   return (
-    <div>
+    <div className="px-4 sm:px-6 lg:px-8">
       {/* Product Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 min-h-[100vh]">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {currentProducts.map((product) => (
-          <ProductCard
-            key={product.id}
-            product={product}
-           
-          />
+          <ProductCard key={product.id} product={product} />
         ))}
       </div>
 
       {/* Pagination Controls */}
-      <div className="flex justify-between items-center mt-6">
+      <div className="flex flex-col sm:flex-row justify-between items-center mt-6">
         <button
           onClick={goToPreviousPage}
           disabled={currentPage === 1}
-          className={`px-4 py-2 bg-[#1F2937] text-white rounded ${
+          className={`px-4 py-2 bg-[#1F2937] text-white rounded w-full sm:w-auto ${
             currentPage === 1 && "opacity-50 cursor-not-allowed"
           }`}
         >
           Previous
         </button>
-        <span>
+        <span className="my-2 sm:my-0">
           Page {currentPage} of {totalPages}
         </span>
         <button
           onClick={goToNextPage}
           disabled={currentPage === totalPages}
-          className={`px-4 py-2 bg-[#1F2937] text-white rounded ${
+          className={`px-4 py-2 bg-[#1F2937] text-white rounded w-full sm:w-auto ${
             currentPage === totalPages && "opacity-50 cursor-not-allowed"
           }`}
         >

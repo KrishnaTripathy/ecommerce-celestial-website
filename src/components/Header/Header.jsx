@@ -1,18 +1,34 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "../Cart/CartContext";
 import { ShoppingBag } from "lucide-react";
 
 export default function Header() {
   const { cart } = useCart();
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage menu visibility
+
+  const toggleMenu = () => {
+    setIsMenuOpen((prev) => !prev);
+  };
 
   return (
     <header className="bg-[#1F2937] shadow-md text-white">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold">
+      <div className="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+        <Link to="/" className="text-2xl font-bold mb-2 sm:mb-0">
           Celestial
         </Link>
-        <nav>
-          <ul className="flex space-x-4">
+        <button
+          onClick={toggleMenu}
+          className="sm:hidden text-white focus:outline-none"
+        >
+          {isMenuOpen ? "✖" : "☰"} {/* Menu icon for mobile */}
+        </button>
+        <nav
+          className={`${
+            isMenuOpen ? "block" : "hidden"
+          } sm:block w-full sm:w-auto`}
+        >
+          <ul className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
             <li>
               <Link to="/" className="hover:text-gray-600">
                 Home
@@ -25,7 +41,7 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <div className="flex flex-row space-x-6 align-middle items-center justify-center">
+        <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-6 align-middle items-center justify-center mt-4 sm:mt-0">
           <div className="flex flex-row gap-6">
             <Link
               to="#"
