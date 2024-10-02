@@ -39,15 +39,15 @@ function Product() {
     return (
         <div className="max-w-[1200px] mx-auto p-10 text-white">
             <div className="p-10 bg-[#202938] rounded-2xl gap-20">
-                <div className="main-details flex flex-row gap-10 justify-start flex-wrap">
-                    <div> <img src={product.image} alt="ProductImage" className="w-auto h-auto max-w-[300px] max-h-[300px] rounded-md md:max-w-[900px] md:max-h-[600px] lg:max-w-[600px] lg:max-h-[500px]" /> </div>
+                <div className="main-details flex flex-row gap-10 justify-center flex-wrap">
+                    <div> <img src={product.image} alt="ProductImage" className="rounded-2xl" /> </div>
                     <div className="flex flex-col w-full gap-5">
                         <h1 className=" text-white font-bold text-6xl">{product.name}</h1>
                         <h2 className="text-[#79aaff] text-4xl font-semibold">${product.price}</h2>
                         <p>{product.description}</p>
-                        <div className="flex flex-row gap-10">
-                            <Button className="w-full bg-white text-black hover:bg-gray-100">Buy Now</Button>
-                            <Button className="w-full bg-black text-white hover:bg-gray-900">Live Demo</Button>
+                        <div className="flex flex-row gap-10 sm:flex-wrap md:flex-col md:gap-5 lg:flex-row lg:gap-10">
+                            <Button className="w-full sm:w-auto md:w-full lg:w-auto bg-white text-black hover:bg-gray-100">Buy Now</Button>
+                            <Button className="w-full sm:w-auto md:w-full lg:w-auto bg-black text-white hover:bg-gray-900">Live Demo</Button>
                         </div>
                         <p className="text-green-500 font-bold underline">{product.status}</p>
                     </div>
