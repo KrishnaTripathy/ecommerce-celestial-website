@@ -50,15 +50,15 @@ export default function Home() {
         </div>
 
         <div className="bg-gray-100 rounded-lg p-6">
-          <h2 className="text-2xl font-bold mb-4">Trail Running Tips</h2>
+          <h2 className="text-2xl font-bold mb-4">Lorem, ipsum dolor.</h2>
           <ul className="space-y-4">
             <li>
-              <h3 className="text-lg font-semibold">Proper Footwear</h3>
+              <h3 className="text-lg font-semibold">trending websites</h3>
               <p className="text-gray-600">Choose shoes with good traction and support.</p>
             </li>
             <li>
-              <h3 className="text-lg font-semibold">Stay Hydrated</h3>
-              <p className="text-gray-600">Carry water and plan your hydration strategy.</p>
+              <h3 className="text-lg font-semibold">Lorem, ipsum.</h3>
+              <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur..</p>
             </li>
             <li>
               <h3 className="text-lg font-semibold">Know the Products</h3>

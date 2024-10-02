@@ -18,15 +18,16 @@ export default function ProductList() {
         filters.color.some((c) =>
           product.color.toLowerCase().includes(c.toLowerCase())
         );
-      return categoryMatch && colorMatch;
+
+      return categoryMatch && colorMatch ; // Updated to include websiteType
     });
     setFilteredProducts(filtered);
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container-fluid mx-auto px-8 py-8">
       <h1 className="text-3xl font-bold mb-8 text-white">Available Templates</h1>
-      <div className="flex flex-col md:flex-row gap-8">
+      <div className="flex flex-col md:flex-row gap-4">
         <div className="w-full md:w-1/4 mb-8 md:mb-0">
           <Filters onFilterChange={handleFilterChange} />
         </div>

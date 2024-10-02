@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 
 export default function ProductGrid({ products }) {
   const [currentPage, setCurrentPage] = useState(1);
-  const productsPerPage = 8;
+  const productsPerPage = 6;
 
   // Calculate the indices for the products to display on the current page
   const indexOfLastProduct = currentPage * productsPerPage;
@@ -32,7 +32,7 @@ export default function ProductGrid({ products }) {
   return (
     <div className="px-4 sm:px-6 lg:px-8">
       {/* Product Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
         {currentProducts.map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
@@ -76,7 +76,6 @@ ProductGrid.propTypes = {
       image: PropTypes.string.isRequired,
       category: PropTypes.string.isRequired,
       color: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
     })
   ).isRequired,
 };

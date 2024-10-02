@@ -4,199 +4,161 @@
     "name": "Web Design Mastery",
     "price": 159.99,
     "image": "https://via.placeholder.com/300?text=Web+Design+Mastery",
-    "category": "Design",
-    "size": [7, 8, 9, 10, 11],
     "color": "Black/Red",
-    "description": "A comprehensive guide to mastering web design skills, from layout creation to user experience, for beginners and professionals."
+    "description": "A comprehensive guide to mastering web design skills, from layout creation to user experience, for beginners and professionals.",
+    "category": "Portfolio"
   },
   {
     "id": 2,
-    "name": "E-Commerce",
+    "name": "E-Commerce Essentials",
     "price": 179.99,
     "image": "https://via.placeholder.com/300?text=E-Commerce+Essentials",
-    "category": "Business",
-    "size": [8, 9, 10, 11, 12],
     "color": "Gray/Blue",
-    "description": "Learn the foundational elements of building and managing a successful e-commerce business, including marketing, sales, and customer engagement."
+    "description": "Learn the foundational elements of building and managing a successful e-commerce business, including marketing, sales, and customer engagement.",
+    "category": "E-Commerce"
   },
   {
     "id": 3,
     "name": "SEO Strategy Guide",
     "price": 139.99,
     "image": "https://via.placeholder.com/300?text=SEO+Strategy+Guide",
-    "category": "Marketing",
-    "size": [6, 7, 8, 9, 10],
     "color": "Green/White",
-    "description": "Boost your website's visibility with this comprehensive SEO guide, covering keyword optimization, link building, and analytics."
+    "description": "Boost your website's visibility with this comprehensive SEO guide, covering keyword optimization, link building, and analytics.",
+    "category": "Blogs Application"
   },
   {
     "id": 4,
-    "name": "Social Media",
+    "name": "Social Media Wizardry",
     "price": 149.99,
     "image": "https://via.placeholder.com/300?text=Social+Media+Wizardry",
-    "category": "Marketing",
-    "size": [7, 8, 9, 10, 11],
     "color": "Orange/Black",
-    "description": "Unlock the secrets of social media marketing and management, mastering content creation, strategy, and audience engagement."
+    "description": "Unlock the secrets of social media marketing and management, mastering content creation, strategy, and audience engagement.",
+    "category": "Admin Page"
   },
   {
     "id": 5,
-    "name": "Content Creation",
+    "name": "Content Creation Masterclass",
     "price": 189.99,
     "image": "https://via.placeholder.com/300?text=Content+Creation+Masterclass",
-    "category": "Content",
-    "size": [6, 7, 8, 9, 10],
     "color": "Purple/Gray",
-    "description": "Master the art of creating engaging and high-quality content that resonates with your audience and boosts brand awareness."
+    "description": "Master the art of creating engaging and high-quality content that resonates with your audience and boosts brand awareness.",
+    "category": "Blogs Application"
   },
   {
     "id": 6,
-    "name": "Book Management",
+    "name": "Book Management System",
     "price": 169.99,
-    "image": "https://via.placeholder.com/300?text=User+Experience+Design",
-    "category": "Design",
-    "size": [8, 9, 10, 11, 12],
+    "image": "https://via.placeholder.com/300?text=Book+Management+System",
     "color": "Brown/Green",
-    "description": "A tool to efficiently manage book collections, from categorization to metadata tracking, tailored for libraries or personal use."
+    "description": "A tool to efficiently manage book collections, from categorization to metadata tracking, tailored for libraries or personal use.",
+    "category": "School Management"
   },
   {
     "id": 7,
-    "name": "Digital Marketing",
+    "name": "Digital Marketing Fundamentals",
     "price": 199.99,
     "image": "https://via.placeholder.com/300?text=Digital+Marketing+Fundamentals",
-    "category": "Marketing",
-    "size": [6, 7, 8, 9, 10],
     "color": "Blue/White",
-    "description": "Dive into the world of digital marketing, learning SEO, email campaigns, content strategy, and social media advertising."
+    "description": "Dive into the world of digital marketing, learning SEO, email campaigns, content strategy, and social media advertising.",
+    "category": "Stock Marketing"
   },
   {
     "id": 8,
-    "name": "Web Development",
+    "name": "Web Development Bootcamp",
     "price": 129.99,
     "image": "https://via.placeholder.com/300?text=Web+Development+Bootcamp",
-    "category": "Development",
-    "size": [7, 8, 9, 10, 11],
     "color": "Tan/Brown",
-    "description": "Learn the latest web development technologies and frameworks, from HTML and CSS to JavaScript and backend integration."
+    "description": "Learn the latest web development technologies and frameworks, from HTML and CSS to JavaScript and backend integration.",
+    "category": "Portfolio"
   },
   {
     "id": 9,
-    "name": "Freelancing",
+    "name": "Freelancing Blueprint",
     "price": 159.99,
     "image": "https://via.placeholder.com/300?text=Freelancing+Blueprint",
-    "category": "Business",
-    "size": [6, 7, 8, 9, 10],
     "color": "Red/Gray",
-    "description": "A comprehensive guide to building a successful freelance career, managing clients, contracts, and finances effectively."
+    "description": "A comprehensive guide to building a successful freelance career, managing clients, contracts, and finances effectively.",
+    "category": "Portfolio"
   },
   {
     "id": 10,
-    "name": "Graphic Design",
+    "name": "Graphic Design Essentials",
     "price": 179.99,
     "image": "https://via.placeholder.com/300?text=Graphic+Design+Essentials",
-    "category": "Design",
-    "size": [8, 9, 10, 11, 12],
     "color": "Black/Yellow",
-    "description": "Explore the essentials of graphic design, from color theory and typography to software tools like Adobe Photoshop."
+    "description": "Explore the essentials of graphic design, from color theory and typography to software tools like Adobe Photoshop.",
+    "category": "Portfolio"
   },
   {
     "id": 11,
-    "name": "WordPress",
+    "name": "WordPress Mastery",
     "price": 149.99,
     "image": "https://via.placeholder.com/300?text=WordPress+Mastery",
-    "category": "Development",
-    "size": [6, 7, 8, 9, 10],
     "color": "Pink/Gray",
-    "description": "Learn to build and customize websites using WordPress, including themes, plugins, and SEO optimization techniques."
+    "description": "Learn to build and customize websites using WordPress, including themes, plugins, and SEO optimization techniques.",
+    "category": "Blogs Application"
   },
   {
     "id": 12,
-    "name": "Email Marketing",
+    "name": "Email Marketing Tactics",
     "price": 189.99,
     "image": "https://via.placeholder.com/300?text=Email+Marketing+Tactics",
-    "category": "Marketing",
-    "size": [7, 8, 9, 10, 11],
     "color": "Gray/Orange",
-    "description": "Learn to create impactful email marketing campaigns, improving open rates, conversion, and customer retention through effective strategies."
+    "description": "Learn to create impactful email marketing campaigns, improving open rates, conversion, and customer retention through effective strategies.",
+    "category": "Admin Page"
   },
   {
     "id": 13,
-    "name": "Video Marketing",
+    "name": "Video Marketing Secrets",
     "price": 169.99,
     "image": "https://via.placeholder.com/300?text=Video+Marketing+Secrets",
-    "category": "Marketing",
-    "size": [6, 7, 8, 9, 10],
     "color": "Teal/Black",
-    "description": "Master video marketing techniques, from scripting and production to editing and promotion, for a strong digital presence."
+    "description": "Master video marketing techniques, from scripting and production to editing and promotion, for a strong digital presence.",
+    "category": "Stock Marketing"
   },
   {
     "id": 14,
     "name": "Copywriting Mastery",
     "price": 199.99,
     "image": "https://via.placeholder.com/300?text=Copywriting+Mastery",
-    "category": "Content",
-    "size": [8, 9, 10, 11, 12],
     "color": "Blue/Red",
-    "description": "Enhance your copywriting skills, learning to craft compelling, persuasive content that drives conversions and audience engagement."
+    "description": "Enhance your copywriting skills, learning to craft compelling, persuasive content that drives conversions and audience engagement.",
+    "category": "Blogs Application"
   },
   {
     "id": 15,
-    "name": "Affiliate Marketing",
+    "name": "Affiliate Marketing Success",
     "price": 159.99,
     "image": "https://via.placeholder.com/300?text=Affiliate+Marketing+Success",
-    "category": "Business",
-    "size": [6, 7, 8, 9, 10],
     "color": "Purple/White",
-    "description": "Learn the strategies to succeed in affiliate marketing, building passive income streams through partnerships and promotions."
+    "description": "Learn the strategies to succeed in affiliate marketing, building passive income streams through partnerships and promotions.",
+    "category": "Business"
   },
   {
     "id": 16,
-    "name": "Data Analytics",
+    "name": "Data Analytics Bootcamp",
     "price": 179.99,
     "image": "https://via.placeholder.com/300?text=Data+Analytics+Bootcamp",
-    "category": "Data",
-    "size": [7, 8, 9, 10, 11],
     "color": "Green/Black",
-    "description": "Master the key tools and techniques in data analytics, including data visualization, statistical analysis, and reporting."
+    "description": "Master the key tools and techniques in data analytics, including data visualization, statistical analysis, and reporting.",
+    "category": "Data Analytics"
   },
   {
     "id": 17,
-    "name": "UX/UI Design",
+    "name": "UX/UI Design Fundamentals",
     "price": 139.99,
     "image": "https://via.placeholder.com/300?text=UX/UI+Design+Fundamentals",
-    "category": "Design",
-    "size": [6, 7, 8, 9, 10],
-    "color": "Brown/Pink",
-    "description": "Understand the principles of user experience (UX) and user interface (UI) design to create effective, user-centered products."
+    "color": "Orange/White",
+    "description": "Learn the core principles of UX/UI design, including wireframing, prototyping, and user testing for impactful web and mobile experiences.",
+    "category": "Portfolio"
   },
   {
     "id": 18,
-    "name": "School Management",
-    "price": 189.99,
-    "image": "https://via.placeholder.com/300?text=Web+Development+Advanced",
-    "category": "Development",
-    "size": [8, 9, 10, 11, 12],
-    "color": "Black/Green",
-    "description": "Comprehensive guide to managing school systems effectively, focusing on resource allocation, communication, and student data management."
-  },
-  {
-    "id": 19,
-    "name": "Admin Analytics",
-    "price": 169.99,
-    "image": "https://via.placeholder.com/300?text=Analytics+for+Marketers",
-    "category": "Marketing",
-    "size": [6, 7, 8, 9, 10],
-    "color": "Gray/Purple",
-    "description": "Leverage analytics to make data-driven decisions in marketing, focusing on campaign performance and customer insights."
-  },
-  {
-    "id": 20,
-    "name": "Entrepreneurship 101",
-    "price": 199.99,
-    "image": "https://via.placeholder.com/300?text=Entrepreneurship+101",
-    "category": "Business",
-    "size": [7, 8, 9, 10, 11],
-    "color": "Red/Black",
-    "description": "Learn the fundamentals of entrepreneurship, from idea generation and business planning to scaling and sustaining a successful venture."
+    "name": "Real Estate Management",
+    "price": 219.99,
+    "image": "https://via.placeholder.com/300?text=Real+Estate+Management",
+    "color": "Gray/Green",
+    "description": "Manage real estate portfolios with ease, tracking property details, rental income, and tenant data.",
+    "category": "Real Estate"
   }
 ]
